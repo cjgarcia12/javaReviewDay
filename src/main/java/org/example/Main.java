@@ -7,7 +7,7 @@ public class Main {
         return !weekday || vacation;
     }
 
-    // Same deal. I used a or statement to keep in just in one return
+    // Same deal. I used an 'or' operator to keep in just in one return
     public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
         return (!aSmile || bSmile) && (aSmile || !bSmile);
     }
